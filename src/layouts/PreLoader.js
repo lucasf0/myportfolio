@@ -11,11 +11,11 @@ const PreLoader = () => {
   return (
     <div className={`preloader ${loaded ? "loaded" : ""}`}>
       <div className="preloader-container">
-        <h1>daria</h1>
+        <h1>lucas</h1>
         <div id="progress-line-container">
           <div className="progress-line" />
         </div>
-        <h1>taylor</h1>
+        <h1>sousa</h1>
       </div>
     </div>
   );
