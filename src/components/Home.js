@@ -8,18 +8,6 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
     <section id="home" className={`${nav === "home" ? "active" : ""}`}>
       {/* Text Rotator Starts */}
       <div className="main-text-container">
-        {video && (
-          <video className="bg-video" autoPlay loop muted poster={Poster}>
-            <source
-              src={require("../../public/img/video.mp4")}
-              type="video/mp4"
-            />
-            <source
-              src={require("../../public/img/video.mp4")}
-              type="video/ogg"
-            />
-          </video>
-        )}
         {leftImg && (
           <img
             className="leftimagepicture"
@@ -28,11 +16,11 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           />
         )}
         <div className="main-text" id="selector">
-          <h3>Hi there !</h3>
+          <h3>Hello there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-            England. I strives to build immersive and beautiful web applications
+            {`I'm`} a Freelance Full stack Developer based in Sao Paulo, Brazil.<br/>
+            I strives to build immersive and beautiful web applications
             through carefully crafted code and user-centric design.
           </p>
           <div className="call-to-actions-home">
